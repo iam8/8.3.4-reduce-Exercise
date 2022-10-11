@@ -62,7 +62,14 @@ Examples:
        ]
 */
 
-function addKeyAndValue(arr, key, value) {}
+function addKeyAndValue(arr, key, value) {
+
+    return arr.reduce(function(accum, nextObj) {
+        nextObj[key] = value;
+        accum.push(nextObj);
+        return accum;
+    }, [])
+}
 
 /*
 Write a function called partition which accepts an array and a callback and returns an array with
