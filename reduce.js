@@ -14,7 +14,7 @@ Examples:
 function extractValue(arr, key) {
 
     return arr.reduce(function(accum, nextObj) {
-        accum.push(nextObj["name"]);
+        accum.push(nextObj[key]);
         return accum;
     }, [])
 }
