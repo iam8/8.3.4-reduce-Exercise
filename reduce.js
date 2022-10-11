@@ -1,3 +1,7 @@
+// Ioana Alex Mititean
+// 10/11/22
+// Unit 8.3.4: reduce Exercise
+
 /*
 Write a function called extractValue which accepts an array of objects and a key and returns a new array with the value of each object at the key.
 

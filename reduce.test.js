@@ -1,3 +1,7 @@
+// Ioana Alex Mititean
+// 10/11/22
+// Unit 8.3.4: reduce Exercise
+
 describe("#extractValue", function() {
   it("returns a new array with the value of each key in an array objects", function() {
     var arr = [
